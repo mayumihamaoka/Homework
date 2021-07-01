@@ -1,0 +1,44 @@
+GIT WORKFLOW FUNDAMENTALS
+• Working Directory:
+The working directory is a single checkout of one version of the project.
+This essentially means if you checkout a branch (e.g. main) and are sat on a particular commit (e.g. HEAD), your working directory is the "umbrella" term for all your files and folders.
+
+A Git project normally consists of a working directory with a ".git" subdirectory at the top level. The .git directory contains, among other things, a compressed object database representing the complete history of the project, an "index" file which links that history to the current contents of the working tree, and named pointers into that history such as tags and branch heads.
+The object database contains objects of three main types: blobs, which hold file data; trees, which point to blobs and other trees to build up directory hierarchies; and commits, which each reference a single tree and some number of parent commits.
+The commit, equivalent to what other systems call a "changeset" or "version", represents a step in the project’s history, and each parent represents an immediately preceding step. Commits with more than one parent represent merges of independent lines of development.
+
+• Staging Area: The Staging Area is when git starts tracking and saving changes that occur in files. These saved changes reflect in the .git directory.
+That is about it when it comes to the Staging Area.
+You tell git that I want to track these specific files, then git says okay and moves them from you Working Tree to the Staging Area.
+However, if you make any more additional changes after adding a file to the Staging Area, git will not know about those specific changes until you tell it to see them.
+
+• Local Repo (head): The Local Repository is everything in your .git directory.
+Mainly what you will see in your Local Repository are all of your checkpoints or commits. It is the area that saves everything.
+The git command git commit takes all changes in the Staging Area, wraps them together and puts them in your Local Repository.
+A commit is simply a checkpoint telling git to track all changes that have occurred up to this point using our last commit as a comparison.
+After committing, your Staging Area will be empty.
+
+A Git repository is a virtual storage of your project.
+It allows you to save versions of your code, which you can access when needed. The local repository is located on your computer.
+
+• Remote repo (master/main): The remote repository is hosted on a server accessible for other people, most likely on the internet or local network.
+
+WORKING DIRECTORY STATES:
+• Staged: the files with the updated changes are marked to be committed to the local repository but not yet committed
+• Modified: the files with the updated changes are not yet stored in the local repository.
+• Committed: the changes you made to your file are safely stored in the local repository.
+
+GIT COMMANDS:
+• Git add: is a command used to add a file that is in the working directory to the staging area.
+• Git commit: is a command used to add all files that are staged to the local repository.
+• Git push: is a command used to add all committed files in the local repository to the remote repository.
+So in the remote repository, all files and changes will be visible to anyone with access to the remote repository.
+• Git fetch: is a command used to get files from the remote repository to the local repository but not into the working directory.
+• Git merge: is a command used to get the files from the local repository into the working directory.
+• Git pull: is command used to get files from the remote repository directly into the working directory.
+It is equivalent to a git fetch and a git merge
+
+Reference: https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/
+& https://medium.com/@lucasmaurer/git-gud-the-working-tree-staging-area-and-local-repo-a1f0f4822018
+& https://git-scm.com/docs/git
+& https://git-scm.com/docs/user-manual#git-concepts
