@@ -1,0 +1,31 @@
+Homework: Lesson 10 – Agile Techniques
+Question 1
+Complete definitions for Scrum related key terminology provided below.
+SCRUM CEREMONIES
+• Product backlog refinement
+• Sprint planning.
+• Daily scrum.
+• Sprint review.
+• Sprint retrospective
+SCRUM ROLES
+• ScrumMaster
+• Product Owner
+• Development Team.
+
+
+Question 2
+You are leading a development team that was given a task to create a new yoga booking system.
+High level description of the system is as follows:
+• It has a very simple interface to accept user input (bookings) and display classes information
+• All bookings, appointments, schedule etc should be stored in a SQL database.
+• There is ‘backend’ system that should be written in Python to handle the logic and manage
+the data flow.
+Your team has two weeks to build a simple prototype that will be shown to the client to seek their
+feedback and discuss further enhancements.
+
+
+TASK
+• Break this task into smaller stories (chunks of work) for the team to work on.
+• Assume that one person works on one task.
+• Mark tasks that can be worked on in parallel and perhaps those that need to be worked on
+in particular order.
