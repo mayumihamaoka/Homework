@@ -2,15 +2,16 @@ Homework: Lesson 10 – Agile Techniques
 Question 1
 Complete definitions for Scrum related key terminology provided below.
 SCRUM CEREMONIES
-• Product backlog refinement
-• Sprint planning.
-• Daily scrum.
-• Sprint review.
-• Sprint retrospective
+• Product backlog refinement: this is the act of adding detail, estimates, and order to items in the Product Backlog. 
+• Sprint planning: This is where the team meets and decides what they need to complete in the coming sprint
+• Daily scrum: This is a standup meeting, or a very short – 15-minute mini-meeting – for the team to make sure they’re all on the same page.
+• Sprint review: This is another type of meeting, but one in which the team demos what they shipped in the sprint.
+• Sprint retrospective: This is when the team reviews their work, identifying what they did well and what didn’t go as planned, so they can make the next sprint better.
 SCRUM ROLES
-• ScrumMaster
-• Product Owner
-• Development Team.
+• Scrum Master: The Scrum Master is accountable for the Scrum Team’s effectiveness. They do this by enabling the Scrum Team to improve its practices, within the Scrum framework.
+Scrum Masters are true leaders who serve the Scrum Team and the larger organization.
+• Product Owner: They are responsible for maintaining a product backlog that describes the product that must continue to fit with the requirements of the business. During any project, as more becomes known about a product, about customers, or about changes in the market, a product often needs to change in order to meet these requirements. The Product Owner has to adjust and re-prioritise the backlog to fit these changes and to steer the project.
+• Development Team: the people in the Scrum Team that are committed to creating any aspect of a usable Increment each Sprint. The team can be composed by designers, writers, programmers, etc. 
 
 
 Question 2
