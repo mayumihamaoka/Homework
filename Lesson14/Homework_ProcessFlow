@@ -1,0 +1,46 @@
+Homework: Lesson 14 – Process Flow Design
+Question 1
+Design a cinema booking system.
+Think how you would approach the problem and what are potential ways of solving it?
+You do not need to write actual code, but describe the high-level approach:
+
+• Draw a list of key requirements
+1. Allow a new user to sign up
+2. Allow a new user to set a password
+3. Allow a new and existing user to reset their password
+4. Allow an existing user to sign in
+5. Allow a user to search availability per movies and week
+6. Allow a user to book a maximum of 4 seats on a movie screening
+7. The system shall update the availability of seats accordingly with how many people are booked
+8. Allow user to log off
+
+As a cinephile
+I want to see the schedule of movies screening on the cinema
+AND reserve seats to watch
+So, I know a space for me and a other friends will be reserved
+
+As a cinema owner
+I want people to reserve seats on my rooms
+So, I can plan how many people will watch the movies
+
+• What are your main considerations?
+The system will display availability for the next 7 days from the users input;
+The system will display how many seats are available on each room;
+The system will block if a user wants to reserve more than 4 spaces;
+The system will not allow a user to login if they insert the wrong password;
+The system will subtract spaces available in the room when someone book a space.
+The system could make available for users to cancel their seats;
+The system could connect payment methods to ensure the person is going.
+
+• What would be your common or biggest problems?
+Users trying to book the same session at the same time;
+Users booking more than 4 spaces if they log off and login again;
+Before changing the password, the system needs to ensure the person changing the password is the person who created the user account;
+If a payment connection is created, need to ensure GDPR and security payment methods.
+
+• What components or tools would you potentially use?
+Flask for the page; MySql to store users data and sessions booked
+
+• You are welcome to draw a diagram (a very simple one) for the process flow to explain how
+it is going to work.
+
